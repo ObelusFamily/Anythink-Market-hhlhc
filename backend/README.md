@@ -3,10 +3,24 @@
 The Anythink Market backend is Ruby web app written with [Ruby On Rails](https://rubyonrails.org/)
 
 ## Getting started
+1. Select the correct Ruby version: `rvm use 2.7.0`
+2. Create a new gem set: `rvm gemset create anythink-market` && `rvm gemset use anythink-market`
+3. Install all dependencies: `bundle install`
+4. Set a cool name for your DB in `database.yml` or keep the example one `anythink_d`.
+5. Run `rails db:create` and you will have your own local DB
+6. Run `rails db:migration` to create all schema tables.
+ 
 
 To start the app use: `./start.sh` from the backend directory.
 
 Make sure your DB is up and running.
+
+#Troubleshooting
+- You may have problems installing `pg` from the Gemfile.
+  You can find it installing posgresql on your local pc (For macOS: `brew install postgresql`), or use Docker for this step.
+  After that, you can run again `bundle install`
+
+- Both apps are using the default port, so check you don't have anything listening on that part already
 
 ## Dependencies
 
