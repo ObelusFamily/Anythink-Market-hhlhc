@@ -1,6 +1,6 @@
 # Welcome to the Anythink Market repo
 
-To start the app use: `./start.sh`, it'll start both the backend and the frontend.
+To start the app execute `./start.sh` from the frontend and backend folder. It will start each server separately.
 
 Please find more info about each part in the relevant Readme file ([frontend](frontend/readme.md) and [backend](backend/README.md)).
 
