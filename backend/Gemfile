@@ -38,7 +38,7 @@ gem 'rack-cors'
 gem 'acts-as-taggable-on', '~> 8.1.0'
 gem 'jwt'
 gem "acts_as_follower", github: "tcocca/acts_as_follower"
-gem 'pg', '~> 0.18.4'
+gem 'pg'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
